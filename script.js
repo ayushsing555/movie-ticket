@@ -28,6 +28,7 @@ $(document).ready(function(){
             let sum=0;
                var a=document.getElementById("movie").value;
                console.log(a);
+               console.log(gseat)
                if(a==1)
                  fetch_bill(12);
                else if(a==2)
